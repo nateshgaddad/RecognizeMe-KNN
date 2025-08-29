@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-dataset_path = r"C:\Users\nates\Documents\FACE_REC\DATA"
+dataset_path = os.path.join(os.getcwd(), "data")
 faceData = []
 labels = []
 classId = 0

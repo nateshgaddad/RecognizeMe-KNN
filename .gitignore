@@ -1,0 +1,10 @@
+# Ignore dataset folder
+data/
+*.npy
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/

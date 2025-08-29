@@ -37,7 +37,7 @@ cap = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 
 skip = 0
-dataset_path = r"C:\Users\nates\OneDrive\Desktop\FACE_REC\DATA"
+dataset_path = os.path.join(os.getcwd(), "data")
 
 face_data = [] 
 labels = []
