@@ -1,5 +1,5 @@
-import cv2 
-import numpy as np 
+import cv2
+import numpy as np
 import os
 
 # Init Camera
@@ -21,7 +21,7 @@ os.makedirs(dataset_path, exist_ok=True)
 file_name = input("Enter the name of the person : ").strip()
 
 # Number of face samples you want
-max_samples = 50  
+max_samples = 50
 
 while True:
     ret, frame = cap.read()
